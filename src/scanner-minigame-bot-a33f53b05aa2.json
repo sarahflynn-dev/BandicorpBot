@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "scanner-minigame-bot",
+  "private_key_id": "classified",
+  "private_key": "-----BEGIN PRIVATE KEY-----classified-----END PRIVATE KEY-----\n",
+  "client_email": "member-labpoints-tracking@scanner-minigame-bot.iam.gserviceaccount.com",
+  "client_id": "104109172741626589723",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/classified",
+  "universe_domain": "googleapis.com"
+}
