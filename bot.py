@@ -128,9 +128,9 @@ def update_google_sheet(user_id, points, username):
 async def on_ready():
     print(f'Logged in as {bot.user.name}')
 
-# Command to roll the genomes and evaluate points
-@bot.command(name='roll')
-async def roll(ctx):
+# Command to scan the genomes and evaluate points
+@bot.command(name='scan')
+async def scan(ctx):
     if should_reset_counter():
         save_counter(0)
         save_last_reset_time(datetime.now())
@@ -146,7 +146,7 @@ async def roll(ctx):
         result_message = evaluate(pick1, pick2)
         await ctx.send(f"You initiated a scan. Result:\n```{pick1}, {pick2}```\n{result_message}")
     else:
-        await ctx.send('You are out of rolls for today. Come back tomorrow.')
+        await ctx.send('You are out of scans for today. Come back tomorrow.')
 
 
 # Command: !secret_admin_reset
@@ -162,7 +162,7 @@ def calculate_points(pick1, pick2):
     if pick1 == pick2:
         points = 50
     elif pick1 == "xyz" or pick2 == "xyz":
-        points = 10
+        points = 10f
     else:
         letter_match = any(pick1[i:i+2] in pick2 for i in range(len(pick1) - 1))
         if letter_match:
