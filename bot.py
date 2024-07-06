@@ -17,7 +17,7 @@ intents = Intents.default()
 intents.messages = True  # Enable message events
 
 # Initialize the bot with intents
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="&", intents=intents)
 
 # Google Sheets setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
