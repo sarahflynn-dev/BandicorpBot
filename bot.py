@@ -8,9 +8,8 @@ from google.oauth2 import service_account
 from discord import Activity, ActivityType
 
 import subprocess
-
-import random
 import os
+import random
 from datetime import datetime, timedelta
 
 # Define intents
