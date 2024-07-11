@@ -1,7 +1,7 @@
-# Genome Scanner Minigame [for Basilidog Labs]
-### A Discord bot that allows daily rolls as a community minigame. It awards points and stores the data via Google Sheets API.
+# BandicorpBot [for Basilidog Labs]
+### A Discord bot that hosts community minigames, awards points, and manages user inventory via Google Sheets API.
 
-Genome Minigame [Basilidog Labs - Discord Bot]
+Genome Scanner, Docu-Swap, and Daily Randomizer [Basilidog Labs - Discord Bot]
 
 Join the server here: https://discord.gg/9FqnNYaGww
 
